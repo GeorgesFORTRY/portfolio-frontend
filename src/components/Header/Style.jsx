@@ -7,7 +7,6 @@ const SHeader = styled.header`
   align-items: center;
   background-color: #2c2875;
   padding-left: 10px;
-  font-family: 'Lato', sans-serif;
   font-size: 25px;
   width: 100vw;
   height: 9vh;
