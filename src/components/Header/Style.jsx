@@ -12,6 +12,7 @@ const SHeader = styled.header`
   height: 9vh;
   box-sizing: border-box;
   box-shadow: 0px 4px 7px rgba(64, 65, 69, 0.3);
+  z-index: 2;
 
   .logo-name {
     display: flex;

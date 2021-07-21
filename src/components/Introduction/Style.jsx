@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 const SIntroduction = styled.section`
-  height: 80vh;
+  height: 83vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   .name {
     color: #2c2875;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 5.8em;
   }
 
   .capacity {
