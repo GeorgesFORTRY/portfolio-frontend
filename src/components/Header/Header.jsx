@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import SHeader from './Style';
 
 export default function Header() {
   return (
     <SHeader>
-      <Link className="logo-name" to="/">
+      <HashLink className="logo-name" to="/#introduction">
         <img className="logo" src="/img/Logo.png" alt="logo" />
         <div className="name">Georges FORTRY</div>
-      </Link>
+      </HashLink>
       <div className="menu">
         <ul className="barre">
           <a
@@ -24,9 +25,9 @@ export default function Header() {
           <Link className="item" to="/career">
             A propos
           </Link>
-          <a className="item" href="#contact">
+          <HashLink className="item" to="/#contact">
             Contact
-          </a>
+          </HashLink>
         </ul>
       </div>
     </SHeader>
