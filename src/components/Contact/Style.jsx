@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const SContact = styled.section`
   color: #2c2875;
+  margin-bottom: 40px;
 
   h1 {
     text-align: center;
@@ -59,6 +60,7 @@ const SContact = styled.section`
   .button {
     display: flex;
     justify-content: center;
+    height: 37px;
     .buttoncontact {
       display: flex;
       justify-content: center;
@@ -97,6 +99,12 @@ const SContact = styled.section`
   }
   .Toastify__close-button {
     color: #ffffff;
+  }
+  .error {
+    background-color: #e61937;
+    .Toastify__progress-bar {
+      background: #ffffff;
+    }
   }
 `;
 

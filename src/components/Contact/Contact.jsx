@@ -39,12 +39,12 @@ export default function Contact() {
         });
       })
       .catch(() => {
-        toast('Adresse email incorrecte !');
+        toast('Adresse email incorrecte !', { className: 'error' });
       });
   };
 
   return (
-    <SContact>
+    <SContact id="contact">
       <h1 className="contactTitle">Formulaire de contact</h1>
       <form onSubmit={handleSubmit}>
         <div className="contactpage">

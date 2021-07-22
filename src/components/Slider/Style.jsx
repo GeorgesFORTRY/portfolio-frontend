@@ -14,6 +14,7 @@ const SSlider = styled.section`
   .Carousel {
     margin: auto;
     height: 20vh;
+    z-index: 1;
     .react-multiple-carousel__arrow--left {
       left: 10px;
     }

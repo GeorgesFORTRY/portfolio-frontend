@@ -24,9 +24,9 @@ export default function Header() {
           <Link className="item" to="/career">
             A propos
           </Link>
-          <Link className="item" to="/contact">
+          <a className="item" href="#contact">
             Contact
-          </Link>
+          </a>
         </ul>
       </div>
     </SHeader>
