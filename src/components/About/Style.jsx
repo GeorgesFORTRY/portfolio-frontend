@@ -49,8 +49,8 @@ const SAbout = styled.section`
         box-shadow: 0 0 1px transparent;
       }
       .btn-career:hover {
-        width: 155px;
-        padding: 15px 10px;
+        width: 153px;
+        padding: 13px 7px;
       }
     }
 
@@ -108,8 +108,8 @@ const SAbout = styled.section`
         box-shadow: 0 0 1px transparent;
       }
       .btn-project:hover {
-        width: 155px;
-        padding: 15px 10px;
+        width: 153px;
+        padding: 13px 7px;
       }
     }
 
